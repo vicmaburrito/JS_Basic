@@ -43,3 +43,13 @@ if (stopLight === 'green' && pedestrians === 0) {
 When using the *&&* operator, both conditions must evaluate to *true* for the entire condition to evaluate to *true* and execute. Otherwise, if either condition is *false*, the *&&* condition will evaluate to *false* and the *else* block will execute.
 
 If we only care about either condition being *true*, we can use the *||* operator:
+#+BEGIN_SRC js
+
+if (day === 'Saturday' || day === 'Sunday') {
+  console.log('Enjoy the weekend!');
+} else {
+  console.log('Do some work.');
+}
+#+END_SRC js
+
+When using the *||* operator, only one of the conditions must evaluate to *true* for the overall statement to evaluate to *true*. In the code example above, if either *day === 'Saturday'* or *day === 'Sunday'* evaluates to *true* the *if*‘s condition will evaluate to *true* and its code block will execute. If the first condition in an *||* statement evaluates to *true*, the second condition won’t even be checked. Only if *day === 'Saturday'* evaluates to *false* will *day === 'Sunday'* be evaluated. The code in the *else* statement above will execute only if both comparisons evaluate to *false*.
