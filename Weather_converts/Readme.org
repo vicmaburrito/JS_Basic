@@ -6,7 +6,7 @@
     - *const* is the preferred way to declare a variable with a constant value.
 ** Other Concepts
 *** Undefined
-   **** Variables that have not been initialized store the primitive data type *undefined*.
+**** Variables that have not been initialized store the primitive data type *undefined*.
 #+BEGIN_SRC js
     var a;
 
@@ -63,7 +63,7 @@ An assignment operator assigns a value to its left operand based on the value of
 
 + *+=* addition assignment
 + *-=* subtraction assignment
-+ **=* multiplication assignment
++ *= multiplication assignment
 + */=* division assignment 
 
 #+BEGIN_SRC js
@@ -79,8 +79,8 @@ An assignment operator assigns a value to its left operand based on the value of
 #+END_SRC
 
 **** Template Literals
-Template literals are strings that allow embedded expressions, *${expression}*. While regular strings use single *'* 
-or double *"* quotes, template literals use backticks instead.
+- Template literals are strings that allow embedded expressions, *${expression}*. While regular strings use single ' 
+or double " quotes, template literals use backticks instead.
 
 #+BEGIN_SRC js
 
@@ -91,7 +91,7 @@ or double *"* quotes, template literals use backticks instead.
     console.log(`Burrito is ${6+8} years old.`); 
     // Prints: Burrito is 14 years old.
 #+END_SRC
-**** let Keyword
+**** Let Keyword
 *let* creates a local variable in JavaScript & can be re-assigned. Initialization during the declaration of a *let* variable is optional.
 A *let* variable will contain *undefined* if nothing is assigned to it.
 #+BEGIN_SRC js
