@@ -1,0 +1,57 @@
+* This Code it's a lesson by Codecademy
+** Using a basic operators to create logic 
+*** It was Tested and Started with a general Variables as: 
+    - *Var* keyword is used in pre-ES6 versions of JS.
+    - *let* Is the preferred way to declare a variable when it can be reassigned.
+    - *const* is the preferred way to declare a variable with a constant value.
+** Other Concepts
+*** Undefined 
+   -Variables that have not been initialized store the primitive data type *undefined*.
+*** Mathematical Operators
+#+BEGIN_SRC js
+    Math.random();
+    // Returns a number between 0 and 1 
+
+    Math.random();
+    // ☝️ Math is the library
+
+    let message = 'good nite';
+    console.log(message.length);
+    // Prints: 9
+
+    console.log(Math.random());
+    // Prints: 0 - 0.9
+
+    console.log(Math.floor(5.95)); 
+    // Prints: 5 
+
+    // calculates # of weeks in a year, rounds down to nearest integer
+    const weeksInYear = Math.floor(365/7);
+
+    // calcuates the number of days left over after 365 is divded by 7
+    const daysLeftOver = 365 % 7 ;
+
+    console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
+
+    let number = 100;
+
+    // Both statements will add 10
+    number = number + 10;
+    number += 10;
+
+    console.log(number); 
+    // Prints: 120
+
+    let name = "Vicma";
+    console.log(`Hello, ${name}`); 
+    // Prints: Hello, Vicma
+
+    console.log(`Burrito is ${6+8} years old.`); 
+    // Prints: Burrito is 14 years old.
+
+    let count; 
+    console.log(count); // Prints: undefined
+    count = 10;
+    console.log(count); // Prints: 10
+    
+    #+END_SRC
