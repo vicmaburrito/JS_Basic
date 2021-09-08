@@ -5,30 +5,48 @@
     - *let* Is the preferred way to declare a variable when it can be reassigned.
     - *const* is the preferred way to declare a variable with a constant value.
 ** Other Concepts
-*** Undefined 
-   -Variables that have not been initialized store the primitive data type *undefined*.
-*** Mathematical Operators
+*** Undefined
+   **** Variables that have not been initialized store the primitive data type *undefined*.
 #+BEGIN_SRC js
+    var a;
+
+    console.log(a); 
+    // Prints: undefined
+#+END_SRC
+
+*** Mathematical Operators
+**** Math.random();
+- *The Math.random()* function returns a floating-point, random number in the range from 0 (inclusive) up to but not including 1.
+#+BEGIN_SRC js
+    console.log(Math.random());
+    // Prints: 0 - 0.9
+
     Math.random();
     // Returns a number between 0 and 1 
 
     Math.random();
     // ☝️ Math is the library
 #+END_SRC
+
+**** String .length
+- The *.length* property of a string returns the number of characters that make up the string.
 #+BEGIN_SRC js
 
     let message = 'good nite';
     console.log(message.length);
     // Prints: 9
 #+END_SRC
-#+BEGIN_SRC js
 
-    console.log(Math.random());
-    // Prints: 0 - 0.9
+**** Math.floor()
+- The *Math.floor()* function returns the largest integer less than or equal to the given number.
+#+BEGIN_SRC js
 
     console.log(Math.floor(5.95)); 
     // Prints: 5 
 #+END_SRC
+
+**** Remainder / Modulo Operator
+- The remainder operator, sometimes called modulo, returns the number that remains after the right-hand number divides into the left-hand number as many times as it evenly can.
 #+BEGIN_SRC js
 
     // calculates # of weeks in a year, rounds down to nearest integer
@@ -39,6 +57,15 @@
 
     console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
 #+END_SRC
+
+**** Assignment Operators
+An assignment operator assigns a value to its left operand based on the value of its right operand. Here are some of them:
+
++ *+=* addition assignment
++ *-=* subtraction assignment
++ **=* multiplication assignment
++ */=* division assignment 
+
 #+BEGIN_SRC js
 
     let number = 100;
@@ -50,6 +77,11 @@
     console.log(number); 
     // Prints: 120
 #+END_SRC
+
+**** Template Literals
+Template literals are strings that allow embedded expressions, *${expression}*. While regular strings use single *'* 
+or double *"* quotes, template literals use backticks instead.
+
 #+BEGIN_SRC js
 
     let name = "Vicma";
@@ -59,6 +91,9 @@
     console.log(`Burrito is ${6+8} years old.`); 
     // Prints: Burrito is 14 years old.
 #+END_SRC
+**** let Keyword
+*let* creates a local variable in JavaScript & can be re-assigned. Initialization during the declaration of a *let* variable is optional.
+A *let* variable will contain *undefined* if nothing is assigned to it.
 #+BEGIN_SRC js
 
     let count; 
