@@ -14,16 +14,22 @@
 
     Math.random();
     // ☝️ Math is the library
+#+END_SRC
+#+BEGIN_SRC js
 
     let message = 'good nite';
     console.log(message.length);
     // Prints: 9
+#+END_SRC
+#+BEGIN_SRC js
 
     console.log(Math.random());
     // Prints: 0 - 0.9
 
     console.log(Math.floor(5.95)); 
     // Prints: 5 
+#+END_SRC
+#+BEGIN_SRC js
 
     // calculates # of weeks in a year, rounds down to nearest integer
     const weeksInYear = Math.floor(365/7);
@@ -32,6 +38,8 @@
     const daysLeftOver = 365 % 7 ;
 
     console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
+#+END_SRC
+#+BEGIN_SRC js
 
     let number = 100;
 
@@ -41,6 +49,8 @@
 
     console.log(number); 
     // Prints: 120
+#+END_SRC
+#+BEGIN_SRC js
 
     let name = "Vicma";
     console.log(`Hello, ${name}`); 
@@ -48,10 +58,12 @@
 
     console.log(`Burrito is ${6+8} years old.`); 
     // Prints: Burrito is 14 years old.
+#+END_SRC
+#+BEGIN_SRC js
 
     let count; 
     console.log(count); // Prints: undefined
     count = 10;
     console.log(count); // Prints: 10
-    
-    #+END_SRC
+
+#+END_SRC
