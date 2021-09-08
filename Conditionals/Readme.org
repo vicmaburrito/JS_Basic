@@ -17,3 +17,29 @@ false || false;       // false
 | false  |  true |  true  |
 |  true  | false |  true  |
 |  true  |  true |  true  |
+
+
+- The *!* not operator reverses, or negates, the value of a boolean:
+#+BEGIN_SRC js
+let excited = true;
+console.log(!excited); // Prints false
+ 
+let sleepy = false;
+console.log(!sleepy); // Prints true
+#+END_SRC js
+
+Essentially, the *! operator will either take a true* value and pass back *false*, or it will take a *false* value and pass back *true*.
+
+
+- When we use the *&&* operator, we are checking that two things are *true*
+#+BEGIN_SRC js
+if (stopLight === 'green' && pedestrians === 0) {
+  console.log('Go!');
+} else {
+  console.log('Stop');
+}
+#+END_SRC js
+
+When using the *&&* operator, both conditions must evaluate to *true* for the entire condition to evaluate to *true* and execute. Otherwise, if either condition is *false*, the *&&* condition will evaluate to *false* and the *else* block will execute.
+
+If we only care about either condition being *true*, we can use the *||* operator:
