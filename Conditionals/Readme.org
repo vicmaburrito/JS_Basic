@@ -1,0 +1,19 @@
+* JS Conditional
+** Logical Operator 
+- The logical OR operator *||* checks two values and returns a boolean. If one or both values are truthy, it returns *true*. If both values are falsy, it returns *false*.
+
+#+BEGIN_SRC js
+true || false;        // true
+10 > 5 || 10 > 20;    // true
+false || false;       // false
+10 > 100 || 10 > 20;  // false
+#+END_SRC
+
+- Table with the concept explain it
+
+|   A    |   B   |  A||B  |
+|--------+-------+--------|
+| false	 | false | false  |
+| false  |  true |  true  |
+|  true  | false |  true  |
+|  true  |  true |  true  |
