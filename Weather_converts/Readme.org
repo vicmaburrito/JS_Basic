@@ -1,4 +1,4 @@
-* This Code it's a lesson by Codecademy
+* First Steps on JavaScript
 ** Using a basic operators to create logic 
 *** It was Tested and Started with a general Variables as: 
     - *Var* keyword is used in pre-ES6 versions of JS.
@@ -79,8 +79,7 @@ An assignment operator assigns a value to its left operand based on the value of
 #+END_SRC
 
 **** Template Literals
-- Template literals are strings that allow embedded expressions, *${expression}*. While regular strings use single ' 
-or double " quotes, template literals use backticks instead.
+- Template literals are strings that allow embedded expressions, *${expression}*. While regular strings use single ' or double " quotes, template literals use backticks instead.
 
 #+BEGIN_SRC js
 
