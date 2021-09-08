@@ -11,7 +11,7 @@ false || false;       // false
 
 - Table with the concept explain it
 
-|   A    |   B   |  A||B  |
+|   A    |   B   |  A  B  |
 |--------+-------+--------|
 | false	 | false | false  |
 | false  |  true |  true  |
