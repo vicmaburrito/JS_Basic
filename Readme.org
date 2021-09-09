@@ -51,11 +51,11 @@ it's like a CSV which i alredy used and learned the basic idea about how use
 -Read Documentation 
 -Warm Schedule update
 
-**** TODO Learn more features
-[ ] [[https://orgmode.org/guide/Checkboxes.html#Checkboxes][Learn how to use checkbox correctly]]                                                                                        ]]
-[ ] [[https://orgmode.org/manual/Tables.html][Tables]] 
-[x] [[https://orgmode.org/guide/TODO-Basics.html#TODO-Basics][Learn Basic TODO]]
-[ ] [[https://www.youtube.com/watch?v=KNBRAPyuQQk&t=77s&ab_channel=VimyLATEXenespa%C3%B1ol][Watch Tutorial about org mode & emacs]]
+**** TODO Learn more features [1/4]
+- [ ] [[https://orgmode.org/guide/Checkboxes.html#Checkboxes][Learn how to use checkbox correctly]]                                                                                        ]]
+- [ ] [[https://orgmode.org/manual/Tables.html][Tables]] 
+- [X] [[https://orgmode.org/guide/TODO-Basics.html#TODO-Basics][Learn Basic TODO]]
+- [ ] [[https://www.youtube.com/watch?v=KNBRAPyuQQk&t=77s&ab_channel=VimyLATEXenespa%C3%B1ol][Watch Tutorial about org mode & emacs]]
 
 ** TODO Pandoc
 *** TODO Read Documentation about it 
