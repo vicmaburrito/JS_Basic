@@ -59,17 +59,17 @@ it's like a CSV which i alredy used and learned the basic idea about how use
 
 ** TODO Pandoc
 *** TODO Read Documentation about it 
-***/ [[https://pandoc.org/][Pandoc Documentation]]
+**** [[https://pandoc.org/][Pandoc Documentation]]
     - Steps for Pandoc 
-    [ ] Learn how to connect Pandoc with org mode & Emacs.
-    [ ] Create articles and start writing documentation about it
+- [ ] Learn how to connect Pandoc with org mode & Emacs.
+- [ ] Create articles and start writing documentation about it
 ** TODO Hackerrank challenges
 *** TODO Start solving warm challenges
 **** Learn Logic and start solving challenges
-***** TODO Create more efficient & simple solutions for challenges
-[ ] Learn about how to do loops
-[ ] Refactoring challenges
-[ ] Solve daily challenge
+***** Create more efficient & simple solutions for challenges
+- [ ] Learn about how to do loops
+- [ ] Refactoring challenges
+- [ ] Solve daily challenge
 ** TODO Personal Stuff
 *** *PROGRESS* Knowledge
 
