@@ -1,151 +1,99 @@
-#+TITLE: Summary 
+#+TITLE: General Summary
 #+AUTHOR: Manuel Aldaraca
 
-* DONE Docker-Test
-** Link Repo
-- [[[[https://github.com/angel-mora/docker-test]]][Link Repo.]]
+** Quickstart with Rails & Docker
+*** Link Repo
+- [[https://docs.docker.com/samples/rails/][Docker-with-Rails]]
 
 ** Concept
 
 It's an initial rails repository configured to be used by the docker container
 
 ** Summary about Docker
-   
+
 *** My general idea about Docker
 
-    - Basically Docker is a container of projects or apps which are stored within the same container 
-      to have an order or an easy way to navigate within the main container
-      
+- Basically Docker is a container of projects or apps which are stored within the same container 
+to have an order or an easy way to navigate within the main container
 
-*** Notes & ISSUES 
-    
-   1) I alredy installed the V.S extension to use docker
-   2) I had a version problem with *Docker-compose V*
+*** Notes & Issues 
 
-* DONE TSV
+1) I alredy installed the V.S extension to use docker
+2) I had a version problem with *Docker-compose V*
 
-** Concept  
-  
-  - Table Separated Values  
-    it's like a CSV which i alredy used and learned the basic idea about how use  
-    
+** What is tsv?
 
-** App 
-   
-   - The application aims to TSV structure, The server runs perfect 
+*** Concept  
 
-*** ISSUES 
+- Table Separated Values  
+it's like a CSV which i alredy used and learned the basic idea about how use  
 
-   - When i started to use the app it's crashed
+** Intel
 
-* DONE Intel
+*** gems
 
-** Progreso
+**** TODO Add all names of gems i already used.
 
-*** GEMS
+*** Conceptos Aprendidos
 
-**** Active-Record-Import Gem
+- Uso de seed con active-record y la manipulacion de datos *.csv para charts 
+- Manejo de gemas para objetivos en especifico 
 
- Use esta gema para poder importar los datos generados por (../lib/seeds/chart_seed.rb) dentro del el MODEL array de charts  
+** Org Mode with Emacs
+*** Emacs
+-Lo uso actualmente para org mode, solo he aprendido lo basico y falta pulir aún mas
+[x] Read Introduction & basic setup
+[ ] Read documentation
+[ ] Practice
 
-***** ISSUES about Active-Record-Import
-      
-                  When i run: 
-          #+BEGIN_SRC bash
-                 $rails console 
-          #+END_SRC 
+*** ORG MODE
+**** TODO ORG MODE Google Calendar Synchronization 
+-Read Documentation 
+-Warm Schedule update
 
-       Output : {`load_from_connection_pool': undefined method `spec' for #<ActiveRecord::ConnectionAdapters::ConnectionPool:0x000055c29ec5aa60 }
+**** TODO Learn more features
+[ ] [[https://orgmode.org/guide/Checkboxes.html#Checkboxes][Learn how to use checkbox correctly]]                                                                                        ]]
+[ ] [[https://orgmode.org/manual/Tables.html][Tables]] 
+[x] [[https://orgmode.org/guide/TODO-Basics.html#TODO-Basics][Learn Basic TODO]]
+[ ] [[https://www.youtube.com/watch?v=KNBRAPyuQQk&t=77s&ab_channel=VimyLATEXenespa%C3%B1ol][Watch Tutorial about org mode & emacs]]
 
-
-**** Chartkick Gem
-  
-       Gema utilizada para la visualizacion de graficas de forma interactiva pre-cargada con datos
-
-***** ISSUES
-  N/A
- 
-
-*** Features
-   
-  La funcionalidad de la aplicacion es prometedora, se busca mostrar las graficas con datos *.CSV pre-cargados en graficas para la busqueda 
-  de un concepto sobre Database-Friendly(?)
-  
-
-** Conceptos Aprendidos
-   
-  - Aprendí más a fondo el uso de seed con active-record y la manipulacion de datos *.csv para charts 
-  - Manejo de gemas para objetivos en especifico 
-
-* Org Mode with Emacs
-
-** Emacs
-
-  -Lo uso actualmente para org mode, solo he aprendido lo basico y falta pulir aún mas
-  
-
-*** ISSUES 
-
-   N/A
-
-** Org mode
-   
-  - Hasta ahora todo ha ido bien y no hay algún problema o cuestion
-*** TODO ORG MODE Google Calendar Synchronization 
-    -Read Documentation 
-    -Warm Schedule update
- 
-* TODO Personal Stuff v1
-** Emacs
-*** TODO Learn Emacs
-   [x] Read Introduction & basic setup
-   [ ] Read documentation
-   [ ] Practice
-
-** ORG MODE
-*** TODO Learn more features
-      [ ] Learn how to use checkbox correctly [[https://orgmode.org/guide/Checkboxes.html#Checkboxes]]                                                                                        ]]
-      [ ] Tables 
-      [x] Learn Basic TODO [[https://orgmode.org/guide/TODO-Basics.html#TODO-Basics]]
-      [ ] Watch Tutorial about org mode & emacs 
-
-* TODO Pandoc
-** TODO Read Documentation about it 
-*** [[https://pandoc.org/]Pandoc Documentation]
+** TODO Pandoc
+*** TODO Read Documentation about it 
+***/ [[https://pandoc.org/][Pandoc Documentation]]
     - Steps for Pandoc 
     [ ] Learn how to connect Pandoc with org mode & Emacs.
     [ ] Create articles and start writing documentation about it
-* TODO Hackerrank challenges
-** TODO Start solving warm challenges
-*** Learn Logic and start solving challenges
-**** TODO Create more efficient & simple solutions for challenges
-     [ ] Learn about how to do loops
-     [ ] Refactoring challenges
-     [ ] Solve daily challenge
-* TODO Personal Stuff
-** *PROGRESS* Knowledge
+** TODO Hackerrank challenges
+*** TODO Start solving warm challenges
+**** Learn Logic and start solving challenges
+***** TODO Create more efficient & simple solutions for challenges
+[ ] Learn about how to do loops
+[ ] Refactoring challenges
+[ ] Solve daily challenge
+** TODO Personal Stuff
+*** *PROGRESS* Knowledge
 
-   -Search & start reading documentation about a necessary tech
-   -Read a book per week
-   -Put below a list of book already read & write a short description
-     
-    1) (...)
+-Search & start reading documentation about a necessary tech
+-Read a book per week
+-Put below a list of book already read & write a short description
 
-** Discipline
-  
-   -Wake up at 7:00AM
-   -Go to sleep at 1:00AM
+1) (...)
 
-** *PROGRESS* Workout & Tranning
-*** TODO
-  -Go to run 7:30 - 8:00
-  -Push up daily in range 30 first week & 50 second week (if i feel me to tired, rest 2 days (weekends))
-* Resources to find & to fix develop Issues
-** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwirtK2kidDyAhUfRDABHR1IBf0QFnoECAcQAw&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AOvVaw2SKyx0njvBQRAGWeriS8JP][MDN WEB DOCS]]
-** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjw26_MidDyAhWvSTABHVLiCMkQFnoECAMQAQ&url=https%3A%2F%2Fwww.w3.org%2F&usg=AOvVaw2RgEUWrugv71FoFUwvQyU9][W3]]
-** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi477DuidDyAhW9RzABHWCKA90QFnoECBsQAw&url=https%3A%2F%2Fcss-tricks.com%2F&usg=AOvVaw1WPU1ql1LbwJkd503pC1fl][CSS-Tricks]]
-** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwifqvGni9DyAhX9TjABHYwdABkQFnoECAsQAw&url=https%3A%2F%2Fdev.to%2F&usg=AOvVaw3NTfo40Q3wZyaXn3lV-lWf][DEV Community]]
-** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj894P9i9DyAhUSSzABHR_CDnAQFnoECAgQAQ&url=https%3A%2F%2Fstackoverflow.com%2F&usg=AOvVaw0C-i47dSU_h02E_IQoAztO][Stack Overflow]] 
-** [[https://caniuse.com/][Can I use]] 
-* TODO List keep working on codeacademy
-** TODO Full Stack course
+*** Discipline
+
+-Wake up at 7:00AM
+-Go to sleep at 1:00AM
+
+*** *PROGRESS* Workout & Tranning
+**** TODO
+-Go to run 7:30 - 8:00
+-Push up daily in range 30 first week & 50 second week (if i feel me to tired, rest 2 days (weekends))
+** Resources to find & to fix develop Issues
+*** [[https://developer.mozilla.org/es/][MDN WEB DOCS]]
+*** [[https://www.w3.org/][W3]]
+*** [[https://css-tricks.com/][CSS-Tricks]]
+*** [[https://dev.to/][DEV Community]]
+*** [[https://stackoverflow.com/][Stack Overflow]] 
+*** [[https://caniuse.com/][Can I use]] 
+** TODO List keep working on codeacademy
+*** TODO Full Stack course
