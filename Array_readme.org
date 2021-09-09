@@ -9,5 +9,56 @@ romanNumerals.unshift('XIX', 'XX');
 // *romanNumerals* would have the value *['XIX', 'XX', 'XXI', 'XXII']*.
 
 romanNumerals.push(twentyThree);
-// *romanNumerals* would have the value *['XIX', 'XX', 'XXI', 'XXII', 'XXIII']*. Notice that we can also pass variables, which allows us even greater flexibility in dynamically modifying our array's data.
+// *romanNumerals* would have the value *['XIX', 'XX', 'XXI', 'XXII', 'XXIII']*. 
+//Notice that we can also pass variables, which allows us even greater flexibility in dynamically modifying our array's data.
+#+END_SRC
+
+** Remove Items from an Array with pop() and shift()
+- *pop()* removes an element from the end of an array, while *shift()* removes an element from the beginning. 
+#+BEGIN_SRC js
+
+let greetings = ['whats up?', 'hello', 'see ya!'];
+
+greetings.pop();
+#+END_SRC
+
+- greetings would have the value ['whats up?', 'hello'].
+#+BEGIN_SRC js
+
+greetings.shift();
+
+- greetings would have the value ['hello'].
+#+END_SRC
+
+- We can also return the value of the removed element with either method like this:
+#+BEGIN_SRC js
+
+let popped = greetings.pop();
+#+END_SRC
+
+- greetings would have the value [], and popped would have the value hello.
+
+** Could be a example this code: 
+#+BEGIN_SRC js
+function popShift(arr) {
+  let popped = arr.pop();
+  let shifted = arr.shift() ; 
+  let answer = popped +' '+ shifted; //I'm not sure if this declariton it's correct 
+  return [answer];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+#+END_SRC
+**** Please leave a comment or open a issue with a refactor of the above code 
+
+*** we can use this code as well (It’s as above code, but this code was tested & already worked properly): 
+
+#+BEGIN_SRC js
+function popShift(arr) {
+  let popped = arr.pop(); 
+  let shifted = arr.shift() ; 
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
 #+END_SRC
