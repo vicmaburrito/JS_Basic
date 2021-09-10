@@ -133,3 +133,52 @@ console.log(copyMachine([true, false, true], 2));
 newArr.push([...arr]);
 #+END_SRC
 
+** Combine Arrays with the Spread Operator
+
+#+ BEGIN_SRC
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']
+  return sentence;
+}
+
+console.log(spreadOut());
+#+END_SRC
+
+** Check For The Presence of an Element With indexOf()
+*** Example 
+- JavaScript provides us with another built-in method, indexOf(), that allows us to quickly and easily check for the presence of an element on an array. indexOf() takes an element as a parameter, and when called, it returns the position, or index, of that element, or -1 if the element does not exist on the array.
+#+ BEGIN_SRC js
+let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+
+fruits.indexOf('dates');
+fruits.indexOf('oranges');
+fruits.indexOf('pears');
+// Output: indexOf('dates') returns -1, indexOf('oranges') returns 2, and indexOf('pears') returns 1 (the first index at which each element exists).
+#+ END_SRC
+*** Exercise
+**** We have defined a function, quickCheck, that takes an array and an element as arguments. Modify the function using indexOf() so that it returns true if the passed element exists on the array, and false if it does not.
+
+- The quickCheck function should return a boolean (true or false), not a string ("true" or "false")
+
+#+BEGIN_SRC js 
+function quickCheck(arr, elem) {
+  // Only change code below this line
+
+  // Only change code above this line
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+#+ END_SRC
+**** Solution 
+#+BEGIN_SRC js
+  if (arr.indexOf(elem) >= 0){
+    return true;
+  } else {
+   return false;
+  }
+#+END_SRC
+**** Refactoring 
+#+BEGIN_SRC js
+    return arr.indexOf(elem) >= 0 ? true : false;
+#+END_SRC
