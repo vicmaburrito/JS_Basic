@@ -1,10 +1,10 @@
-* Getting started with JavaScript by Vicma
+# Getting started with JavaScript by Vicma
 
-* First Steps on JavaScript
-** JS Best Practices
-*** [[https://devinduct.com/blogpost/22/javascript-clean-code-best-practices][Code Clean]]
+# First Steps on JavaScript
+## JS Best Practices
+### [[https://devinduct.com/blogpost/22/javascript-clean-code-best-practices][Code Clean]]
 
-** JavaScript in the browser
+### JavaScript in the browser
 - Do not commit *console.log* to your repo. It’s ugly, it kills performance and it can make confidential data be visible to anyone using the browser tools to look at your website.
 - Do not use *window.alert()* or *window.confirm()*. It’s ugly, impossible to style, it stops code execution and displays differently on different browsers. Use custom modal instead.
 - Keep the number of changes/updates to the DOM as low as possible, they are very expensive for the browser.
@@ -12,14 +12,14 @@
 - Do not use *document.write* or *eval*
 - Add *node_modules* dir to you.gitignore file as all those files are not needed in your repo (each team member will install all packages thanks to your package.json file).
 
-** Using a basic operators to create logic 
-*** It was Tested and Started with a general Variables as: 
+## Using a basic operators to create logic 
+### It was Tested and Started with a general Variables as: 
     - *Var* keyword is used in pre-ES6 versions of JS.
     - *let* Is the preferred way to declare a variable when it can be reassigned.
     - *const* is the preferred way to declare a variable with a constant value.
-** Other Concepts
-*** Undefined
-**** Variables that have not been initialized store the primitive data type *undefined*.
+## Other Concepts
+### Undefined
+#### Variables that have not been initialized store the primitive data type *undefined*.
 #+BEGIN_SRC js
     var a;
 
@@ -27,8 +27,8 @@
     // Prints: undefined
 #+END_SRC
 
-*** Mathematical Operators
-**** Math.random();
+### Mathematical Operators
+#### Math.random();
 - *The Math.random()* function returns a floating-point, random number in the range from 0 (inclusive) up to but not including 1.
 #+BEGIN_SRC js
     console.log(Math.random());
