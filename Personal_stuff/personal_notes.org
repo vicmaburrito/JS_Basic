@@ -1,3 +1,11 @@
 * Personal notes of JS 
 ** JavaScript — Double Equals vs. Triple Equals 
 *** [[https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a][ JS Doble Equals vs. Triple Equals]]
+
+*** org to markdown with pandoc *pandoc --from=org --to=gfm org-mode-file.org > markdown.md*
+*** Check Concepts about *LOGARITHMIC COMPLEXITY*
+- ./img1.jpg
+
+- ./img2.jpg
+
+
