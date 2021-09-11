@@ -4,7 +4,7 @@
 
 *** org to markdown with pandoc *pandoc --from=org --to=gfm org-mode-file.org > markdown.md*
 *** Check Concepts about *LOGARITHMIC COMPLEXITY*
-- [[./img1.jpg]]
+- [[./img1.png]]
 
 - [[./img2.jpg]]
 
