@@ -4,6 +4,8 @@
 
 *** org to markdown with pandoc *pandoc --from=org --to=gfm org-mode-file.org > markdown.md*
 *** Check Concepts about *LOGARITHMIC COMPLEXITY*
+#+ATTR_HTML: width="100px"
+#+ATTR_ORG: :width 100
 - [[./img1.png]]
 
 - [[./img2.jpg]]
