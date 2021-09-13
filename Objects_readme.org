@@ -1,0 +1,52 @@
+* Object initializer
+- Objects can be initialized using new Object(), Object.create(), or using the literal notation (initializer notation). An object initializer is a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).
+#+BEGIN_SRC js
+const object1 = { a: 'foo', b: 42, c: {} };
+
+console.log(object1.a);
+// expected output: "foo"
+
+const a = 'foo';
+const b = 42;
+const c = {};
+const object2 = { a: a, b: b, c: c };
+
+console.log(object2.b);
+// expected output: 42
+
+const object3 = { a, b, c };
+
+console.log(object3.a);
+// expected output: "foo"
+#+END_SRC 
+
+** Examples
+*** Creating Objects
+
+-An empty object with bo properties can be created like this:
+
+#+BEGIN_SRC js
+let object = {}
+#+END_SRC
+
+- However, the advantage of the literal or initializer notation is, that you are able to quickly create objects with properties inside the curly braces. You notate a list of key: value pairs delimited by commas.
+The following code creates an object with three properties and the keys are "foo", "age" and "baz". The values of these keys are a string "bar", the number 42, and another object.
+
+#+BEGIN_SRC js
+let object = {
+  foo: 'bar',
+  age: 42,
+  baz: {myProp: 12}
+}
+#+END_SRC
+
+*** Accessing Properties 
+- Once you have created an object, you might want to read or change them. Object properties can be accessed by using the dot notation or the bracket notation.
+#+BEGIN_SRC js
+object.foo // "bar"
+object['age'] // 42
+object.baz          // {myProp: 12}
+object.baz.myProp   //12
+#+END_SRC
+
+*** [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer][Check all Documentation]] 
