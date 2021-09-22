@@ -1,0 +1,5 @@
+# .gitignore
+assets/
+_config.yml
+index.org
+

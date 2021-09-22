@@ -530,7 +530,7 @@ console.log(stack); // [1,2,3,4,5]
 
 1.  The following figure illustrates each step in the script above.
 
-    -   ![](./JavaScript-Stack-Push-Operations.png)
+    -   ![](./assets/JavaScript-Stack-Push-Operations.png)
 
 ### **\*** Example with pop() method
 
@@ -556,4 +556,6 @@ console.log(stack.pop()); //  undefined
 
 1.  The figure below illustrates each step in the script.
 
-    -   ![](./JavaScrippt-Stack-Pop.png)
+    -   ![](./assets/JavaScrippt-Stack-Pop.png)
+
+# Getting started with Webpack
