@@ -1,0 +1,110 @@
+#+TITLE: General Summary
+#+AUTHOR: Manuel Aldaraca
+
+** Quickstart with Rails & Docker
+*** Link Repo
+- [[https://docs.docker.com/samples/rails/][Docker-with-Rails]]
+
+** Concept
+
+It's an initial rails repository configured to be used by the docker container
+
+** Summary about Docker
+
+*** My general idea about Docker
+
+- Basically Docker is a container of projects or apps which are stored within the same container 
+to have an order or an easy way to navigate within the main container
+
+*** Notes & Issues 
+
+1) I alredy installed the V.S extension to use docker
+2) I had a version problem with *Docker-compose V*
+
+** What is tsv?
+
+*** Concept  
+
+- Table Separated Values  
+it's like a CSV which i alredy used and learned the basic idea about how use  
+
+** Intel
+
+*** gems
+
+**** TODO Add all names of gems i already used.
+
+*** Conceptos Aprendidos
+
+- Uso de seed con active-record y la manipulacion de datos *.csv para charts 
+- Manejo de gemas para objetivos en especifico 
+
+** Org Mode with Emacs
+*** Emacs
+-Lo uso actualmente para org mode, solo he aprendido lo basico y falta pulir aún mas
+[x] Read Introduction & basic setup
+[ ] Read documentation
+[ ] Practice
+
+*** ORG MODE
+**** TODO ORG MODE Google Calendar Synchronization 
+-Read Documentation 
+-Warm Schedule update
+
+**** TODO Learn more features [1/4]
+- [ ] [[https://orgmode.org/guide/Checkboxes.html#Checkboxes][Learn how to use checkbox correctly]]                                                                                        ]]
+- [ ] [[https://orgmode.org/manual/Tables.html][Tables]] 
+- [X] [[https://orgmode.org/guide/TODO-Basics.html#TODO-Basics][Learn Basic TODO]]
+- [ ] [[https://www.youtube.com/watch?v=KNBRAPyuQQk&t=77s&ab_channel=VimyLATEXenespa%C3%B1ol][Watch Tutorial about org mode & emacs]]
+
+** TODO Pandoc
+*** TODO Read Documentation about it 
+**** [[https://pandoc.org/][Pandoc Documentation]]
+    - Steps for Pandoc 
+- [ ] Learn how to connect Pandoc with org mode & Emacs.
+- [ ] Create articles and start writing documentation about it
+** TODO Hackerrank challenges
+*** TODO Start solving warm challenges
+**** Learn Logic and start solving challenges
+***** Create more efficient & simple solutions for challenges
+- [ ] Learn about how to do loops
+- [ ] Refactoring challenges
+- [ ] Solve daily challenge
+** TODO Personal Stuff
+*** *PROGRESS* Knowledge
+
+-Search & start reading documentation about a necessary tech
+-Read a book per week
+-Put below a list of book already read & write a short description
+
+1) (...)
+
+*** Discipline
+
+-Wake up at 7:00AM
+-Go to sleep at 1:00AM
+
+*** *PROGRESS* Workout & Tranning
+**** TODO
+-Go to run 7:30 - 8:00
+-Push up daily in range 30 first week & 50 second week (if i feel me to tired, rest 2 days (weekends))
+** Resources to find & to fix develop Issues
+*** [[https://developer.mozilla.org/es/][MDN WEB DOCS]]
+*** [[https://www.w3.org/][W3]]
+*** [[https://css-tricks.com/][CSS-Tricks]]
+*** [[https://dev.to/][DEV Community]]
+*** [[https://stackoverflow.com/][Stack Overflow]] 
+*** [[https://caniuse.com/][Can I use]] 
+** TODO List keep working on codeacademy
+*** TODO Full Stack course
+
+** JS Best Practices
+*** [[https://devinduct.com/blogpost/22/javascript-clean-code-best-practices][Code Clean]]
+
+*** JavaScript in the browser
+- Do not commit *console.log* to your repo. It’s ugly, it kills performance and it can make confidential data be visible to anyone using the browser tools to look at your website.
+- Do not use *window.alert()* or *window.confirm()*. It’s ugly, impossible to style, it stops code execution and displays differently on different browsers. Use custom modal instead.
+- Keep the number of changes/updates to the DOM as low as possible, they are very expensive for the browser.
+- Keep the application logic separated from DOM manipulation tasks.
+- Do not use *document.write* or *eval*
+- Add *node_modules* dir to you.gitignore file as all those files are not needed in your repo (each team member will install all packages thanks to your package.json file).

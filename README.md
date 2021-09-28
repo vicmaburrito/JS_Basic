@@ -6,6 +6,8 @@
 
 ### [Code Clean](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
 
+### [This guide it's deploying by Manuel Aldaraca](https://github.com/vicmaburrito)
+
 ## JavaScript in the browser
 
 -   Do not commit **console.log** to your repo. It’s ugly, it kills
