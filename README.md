@@ -1,7 +1,6 @@
 # Getting started with JavaScript by Vicma
 ### [This guide it's deploying by Manuel Aldaraca](https://github.com/vicmaburrito)
-### [TEST](./README(1).md)
-[MIT](./README(1).md)
+
 # First Steps on JavaScript
 
 ## JS Best Practices
