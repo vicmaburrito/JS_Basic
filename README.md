@@ -1,12 +1,12 @@
 # Getting started with JavaScript by Vicma
-
+### [This guide it's deploying by Manuel Aldaraca](https://github.com/vicmaburrito)
+### [TEST](./README(1).md)
+[MIT](./README(1).md)
 # First Steps on JavaScript
 
 ## JS Best Practices
 
 ### [Code Clean](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
-
-### [This guide it's deploying by Manuel Aldaraca](https://github.com/vicmaburrito)
 
 ## JavaScript in the browser
 
