@@ -560,4 +560,16 @@ console.log(stack.pop()); //  undefined
     -   ![](./assets/JavaScrippt-Stack-Pop.png)
 
 # Getting started with Webpack
-## TODO 
+## Basic Setup
+[jdusjsd](https://github.com/vicmaburrito)
+
+- First let's create a directory, initialize npm,
+[install webpack locally](https://webpack.js.org/guidesgetting-started/#basic-setup), and install the
+ ` webpack-cli  `  (the tool used to run webpack on the command line):
+
+```console
+mkdir webpack-demo
+cd webpack-demo
+npm init -y
+npm install webpack webpack-cli --save-dev
+```
