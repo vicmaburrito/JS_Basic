@@ -561,7 +561,6 @@ console.log(stack.pop()); //  undefined
 
 # Getting started with Webpack
 ## Basic Setup
-[jdusjsd](https://github.com/vicmaburrito)
 
 - First let's create a directory, initialize npm,
 [install webpack locally](https://webpack.js.org/guidesgetting-started/#basic-setup), and install the
